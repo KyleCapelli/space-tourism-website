@@ -3,7 +3,7 @@ import TechnologyInfo from "./TechnologyInfo";
 import "./Technology.css";
 
 const Technology = ({ technology }) => {
-  const [technologySelected, setTechnologySelected] = useState(2);
+  const [technologySelected, setTechnologySelected] = useState(0);
 
   const getTechnologyClick = (techIndex) => {
     setTechnologySelected(techIndex);

@@ -3,7 +3,7 @@ import DestinationInfo from "./DestinationInfo";
 import "./Destination.css";
 
 const Destination = ({ destinations }) => {
-  const [destinationSelected, setDestinationSelected] = useState("Mars");
+  const [destinationSelected, setDestinationSelected] = useState("Moon");
 
   const getDestinationClick = (destination) => {
     setDestinationSelected(destination);
