@@ -1,6 +1,4 @@
 .destination__container {
-  height: calc(100vh + 1px);
-  width: calc(100vw + 1px);
   background-image: url("../assets/destination/background-destination-mobile.jpg");
   margin: 0;
   padding: 0;
