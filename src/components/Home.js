@@ -15,9 +15,11 @@ const Home = () => {
             world experience!
           </p>
         </div>
-        <div className="home__explore">
-          <h4>EXPLORE</h4>
-        </div>
+        <a href="/destination">
+          <div className="home__explore">
+            <h4>EXPLORE</h4>
+          </div>
+        </a>
       </div>
     </div>
   );

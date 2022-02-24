@@ -24,3 +24,7 @@
   --subheading-2-char-space: 2.35px;
   --nav-text-char-space: 2.7px;
 }
+
+a {
+  text-decoration: none;
+}
