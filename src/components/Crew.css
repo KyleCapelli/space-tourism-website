@@ -1,6 +1,4 @@
 .crew__container {
-  height: calc(100vh + 1px);
-  width: calc(100vw + 1px);
   background-image: url("../assets/crew/background-crew-desktop.jpg");
   margin: 0;
   padding: 0;

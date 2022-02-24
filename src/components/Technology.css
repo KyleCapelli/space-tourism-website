@@ -1,6 +1,4 @@
 .technology__container {
-  height: calc(100vh + 1px);
-  width: calc(100vw + 1px);
   background-image: url("../assets/technology/background-technology-mobile.jpg");
   margin: 0;
   padding: 0;
