@@ -1,0 +1,214 @@
+.technology__container {
+  height: calc(100vh + 1px);
+  width: calc(100vw + 1px);
+  background-image: url("../assets/technology/background-technology-mobile.jpg");
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+.technology__content {
+  min-height: 710px;
+  padding-top: 95px;
+  padding-bottom: 16px;
+  margin: auto;
+  height: 100vh;
+}
+.tech-info__image {
+  margin-top: 20px;
+}
+.tech-info__image img {
+  width: 100%;
+}
+.tech-info__selection {
+  width: 152px;
+  margin: 20px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tech-info__circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: var(--color-white);
+  border: 1px solid #505051;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+.tech-info__circle p {
+  font-family: var(--bellefair-font);
+  margin-top: 3px;
+}
+.tech-info__circle.active {
+  background: var(--color-white);
+  color: var(--color-black);
+}
+.tech-info__circle.non-active:hover {
+  border-color: var(--color-white);
+}
+.tech-info__terminology {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.tech-info__terminology h3 {
+  font-size: 14px;
+  font-family: var(--barlow-condensed-font);
+  letter-spacing: var(--subheading-2-char-space);
+  font-weight: 400;
+  color: var(--body-text-color);
+}
+.tech-info__description {
+  width: 91%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 15px;
+}
+.tech-info__description p {
+  font-family: var(--barlow-font);
+  color: var(--body-text-color);
+  font-weight: 400;
+  line-height: 32px;
+}
+
+@media screen and (min-width: 600px) {
+  .technology__content {
+    padding-top: 116px;
+  }
+  .technology__content-container {
+    padding-bottom: 16px;
+  }
+  .tech-info__bio {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .technology__container {
+    background-image: url("../assets/technology/background-technology-tablet.jpg");
+  }
+  .technology__content {
+    min-height: 1080px;
+  }
+  .tech-info__image {
+    margin-top: 60px;
+  }
+  .tech-info__selection {
+    width: 210px;
+    margin-top: 60px;
+  }
+  .tech-info__circle {
+    width: 60px;
+    height: 60px;
+  }
+  .tech-info__circle p {
+    font-size: 24px;
+  }
+  .tech-info__terminology {
+    margin-top: 60px;
+  }
+  .tech-info__description {
+    width: 58%;
+  }
+  .tech-info__terminology h3 {
+    font-size: var(--nav-text-font-size);
+  }
+}
+
+@media screen and (min-width: 851px) {
+  .technology__content {
+    padding-top: 160px;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .technology__content {
+    min-height: 1150px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .technology__container {
+    background-image: url("../assets/technology/background-technology-desktop.jpg");
+  }
+  .technology__content {
+    min-height: 900px;
+  }
+  .tech-info__contents {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-left: 100px;
+  }
+  .tech-info__content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 0;
+    height: 95%;
+  }
+  .tech-info__image {
+    order: 2;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+  }
+  .tech-info__image img {
+    height: 480px;
+    width: auto;
+  }
+  .tech-info__description {
+    margin: 15px 0 0;
+    text-align: left;
+    width: 85%;
+  }
+  .tech-info__description p {
+    line-height: 32px;
+  }
+  .tech-info__selection {
+    flex-direction: column;
+    height: 300px;
+    width: 80px;
+    margin-top: 0;
+  }
+  .tech-info__circle {
+    height: 80px;
+    width: 80px;
+  }
+  .tech-info__circle p {
+    font-size: var(--heading-4-font-size);
+  }
+  .tech-info__terminology {
+    margin-top: 0;
+  }
+  .y {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .tech-info__image img {
+    height: 527px;
+  }
+  .y {
+    width: 66%;
+  }
+}
